@@ -1,6 +1,5 @@
 # Strategy_Pattern
 
-##STRATEGY PATTERN##
 
 - Problem scenario:
 
@@ -20,4 +19,13 @@ B.  AttackStrategy
      1.  CastSpell
      2.  ShootArrow
      3.  SwingSword  
+     
+
+#UML Class Diagram:
+![StrategyPatt](https://github.com/user-attachments/assets/01ced211-f15e-4e62-b0a0-afbdc1d3b380)
+
+
+
+
+
 
