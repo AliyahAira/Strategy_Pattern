@@ -1,7 +1,7 @@
-# Strategy_Pattern
+# Strategy Pattern
 
 
-- Problem scenario:
+## Problem scenario:
 
 Suppose we have three types of characters in a GameApp:
 
@@ -21,7 +21,7 @@ B.  AttackStrategy
      3.  SwingSword  
      
 
-#UML Class Diagram:
+# UML Class Diagram:
 ![StrategyPatt](https://github.com/user-attachments/assets/01ced211-f15e-4e62-b0a0-afbdc1d3b380)
 
 
