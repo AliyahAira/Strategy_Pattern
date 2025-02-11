@@ -1,8 +1,10 @@
 public class Character {
+    private String name;
     private AttackStrategy attackStrategy;
     private DefenseStrategy defenseStrategy;
 
-    public Character(AttackStrategy attackStrategy, DefenseStrategy defenseStrategy) {
+    public Character(String name, AttackStrategy attackStrategy, DefenseStrategy defenseStrategy) {
+        this.name = name;
         this.attackStrategy = attackStrategy;
         this.defenseStrategy = defenseStrategy;
     }
@@ -13,5 +15,13 @@ public class Character {
 
     public void defend() {
         defenseStrategy.defend();
+    }
+
+    public void setAttackStrategy(AttackStrategy attackStrategy) {
+        this.attackStrategy = attackStrategy;
+    }
+
+    public void setDefenseStrategy(DefenseStrategy defenseStrategy) {
+        this.defenseStrategy = defenseStrategy;
     }
 }
